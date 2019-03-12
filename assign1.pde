@@ -49,8 +49,8 @@ void draw() {
   image (life, 80, 10);
   image (life, 150, 10);
   image (groundhog, 280, 80);
-  image (robot, robotX, robotY);
   image (soldier, soldierX-80, soldierY); 
+  image (robot, robotX, robotY);
   
 //Laser
   noStroke();
