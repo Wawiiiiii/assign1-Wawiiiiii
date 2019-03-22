@@ -57,12 +57,12 @@ void draw() {
   fill(255, 0 ,0);
   ellipse(robotX+25-laserX, robotY+37, 10, 10);
   rect(robotX+25-laserX, robotY+32, laserLength, 10);
-  ellipse(robotX+25-max(laserX-30, 0), robotY+37, 10, 10);
+  ellipse(robotX+25-max(laserX-40, 0), robotY+37, 10, 10);
   
   soldierX += 2;
   soldierX %=720;
   laserX += 2;
   laserX %=180;
-  laserLength = laserX-max(laserX-30,0);//the distance between two ellipses
+  laserLength = laserX-max(laserX-40,0);//the distance between two ellipses
 
 }
