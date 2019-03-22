@@ -63,6 +63,6 @@ void draw() {
   soldierX %=720;
   laserX += 2;
   laserX %=180;
-  laserLength = laserX-max(laserX-30,0);//the distance between two ellipses
+  laserLength = laserX-max(laserX-40,0);//the distance between two ellipses
 
 }
