@@ -66,3 +66,4 @@ void draw() {
   laserLength = laserX-max(laserX-40,0);//the distance between two ellipses
 
 }
+
