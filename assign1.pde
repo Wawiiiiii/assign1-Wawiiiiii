@@ -23,9 +23,9 @@ void setup() {
   robot = loadImage("img/robot.png");
   soldier = loadImage("img/soldier.png");
 
-  soldierY = floor(random(3)+2)*80; 
+  soldierY = floor(random(4)+2)*80; 
   robotX = floor(random(400))+160;
-  robotY = floor(random(3)+2)*80;
+  robotY = floor(random(4)+2)*80;
   
 }
 
@@ -57,7 +57,7 @@ void draw() {
   fill(255, 0 ,0);
   ellipse(robotX+25-laserX, robotY+37, 10, 10);
   rect(robotX+25-laserX, robotY+32, laserLength, 10);
-  ellipse(robotX+25-max(laserX-30, 0), robotY+37, 10, 10);
+  ellipse(robotX+25-max(laserX-40, 0), robotY+37, 10, 10);
   
   soldierX += 2;
   soldierX %=720;
